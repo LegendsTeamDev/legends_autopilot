@@ -2,8 +2,8 @@ fx_version 'cerulean'
 game 'gta5'
 
 name 'legends_autopilot'
-author 'Legends Scripts'
-version '2.0.0'
+author 'Jabata'
+version '1.0.0'
 description 'Vehicle autopilot system with modern UI - drive to waypoint automatically'
 
 lua54 'yes'

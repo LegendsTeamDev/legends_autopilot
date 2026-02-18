@@ -3,19 +3,6 @@ Config = {}
 -- Command to toggle autopilot
 Config.Command = 'autopilot'
 
--- Maximum driving speed in m/s (25 m/s = ~90 km/h = ~56 mph)
-Config.MaxSpeed = 45.0
-
--- Driving style bitmask (controls AI driving behavior)
--- 786603 = Normal driving, obeys traffic laws, stops at lights
--- 1074528293 = Rush to destination, avoid vehicles and peds
--- 6 = Avoid vehicles and peds only
--- Config.DrivingStyle = 786603
-Config.DrivingStyle = 1074528293
-
--- Distance from waypoint to stop (in meters)
-Config.StoppingDistance = 5.0
-
 -- Interval between distance checks in milliseconds (higher = less CPU usage)
 Config.DistanceCheckInterval = 500
 
