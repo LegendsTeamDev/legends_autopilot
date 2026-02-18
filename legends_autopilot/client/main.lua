@@ -1,4 +1,8 @@
 if not lib then return end
+if GetCurrentResourceName() ~= 'legends_autopilot' then
+    print('^1[legends_autopilot] Resource has been renamed. Please use the original resource name "legends_autopilot".^0')
+    return
+end
 
 local isAutopilotActive = false
 local isUIOpen = false
